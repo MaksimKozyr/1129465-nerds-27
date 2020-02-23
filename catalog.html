@@ -11,31 +11,53 @@
         <a href="index.html"><img src="img/nerds-logo.svg" width="160" height="65" alt="Нёрдс"></a>
         <a><img src="img/cart-icon.svg" width="15" height="15" alt="Корзина"></a>
         <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Клиенты</a></li>
+          <li><a href="#">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
           <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="">Конакты</a></li>
+          <li><a href="#">Конакты</a></li>
         </ul>
+        <a><img src="img/cart-icon.svg" width="15" height="15" alt="Корзина"></a>
         <ul>
-          <li><a href="">Корзина</a></li>
+          <li><a href="#">Корзина</a></li>
         </ul>
       </nav>
     </header>
       <main>
         <p>СЕТКА:</p>
         <ul>
-          <li>Адаптивная</li>
-          <li>Фиксированная</li>
-          <li>Резиновая</li>
-          <li></li>
+          <li>
+            <input type="radio" name="product-group" value="adaptive" id="filter-adaptive" checked>
+            <label for="filter-adaptive">Адаптивная</label>
+            </li>
+          <li>
+            <input type="radio" name="product-group" value="fixed" id="filter-fixed">
+            <label for="filter-fixed">Фиксированная</label>
+            </li>
+          <li>
+            <input type="radio" name="product-group" value="rubber" id="filter-rubber">
+            <label for="filter-rubber">Резиновая</label>
+          </li>
         </ul>
-        <p>ОСОБЕННОСТИ:</p>
+      <p>ОСОБЕННОСТИ:</p>
         <ul>
-          <li>Слайдер</li>
-          <li>Блок преимуществ</li>
-          <li>Новости</li>
-          <li>Галерея</li>
-          <li>Корзина</li>
+          <li>
+            <input type="checkbox" name="slider" id="filter-slider" checked>
+            <label for="filter-slider">Слайдер</label>
+          </li>
+          <li>
+            <input type="checkbox" name="an-array-of-benefits" id="filter-an-array-of-benefits">
+            <label for="filter-an-array-of-benefits">Блок преимуществ</label>
+          </li>
+          <li>
+            <input type="checkbox" name="news" id="filter-news" checked>
+            <label for="filter-news">Новости</label>
+          </li>
+          <li>
+            <input type="checkbox" name="gallery" id="filter-gallery">
+            <label for="filter-gallery">Галерея</label></li>
+          <li>
+            <input type="checkbox" name="basket" id="filter-basket">
+            <label for="filter-basket">Корзина</label></li>
         </ul>
         <button type="button">ПОКАЗАТЬ</button>
           <a><img src="img/img-sedona.jpg" width="360" height="576" alt=""></a>
@@ -44,13 +66,31 @@
           <a><img src="img/img-mishka.jpg" width="360" height="576" alt=""></a>
           <a><img src="img/img-aplus.jpg" width="360" height="576" alt=""></a>
           <a><img src="img/img-kvast.jpg" width="360" height="576" alt=""></a>
+          <section>
+          <h2>Напишите нам</h2>
+          <form action="https://echo.htmlacademy.ru" method="post">
+            <p>
+            <label for="appointment-name">Ваше имя</label>
+            <input id="appointment-name" type="text" name="name" placeholder="Имя Фамилия">
+            </p>
+            <p>
+              <label for="appointment-mail">Ваш e-mail:</label>
+              <input id="appointment-mail" type="text" name="mail" placeholder="email@example.com">
+            </p>
+            <p>
+              <label for="appointment-message">Текст письма:</label>
+              <input id="appointment-message" type="text" name="message" placeholder="В свободной форме">
+            </p>
+            <button type="submit">Отправить</button>
+          </form>
+        </section>
       </main>
       <footer>
         <div>
           <ul>
-            <li><a href="#"><img src="img/vc-icon.svg" alt="Вконтакте"></a></li>
-            <li><a href="#"><img src="img/fb-icon.svg" alt="Фейсбук"></a></li>
-            <li><a href="#"><img src="img/insta-icon.svg" alt="Инстаграм"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
           </ul>
         </div>
           <p><em>Давайте дружить, это выгодно!</em></p>
